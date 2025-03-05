@@ -54,10 +54,11 @@ colors.forEach(function name(val) {
 })
 
 // Write a program that uses the reduce() method to check if all numbers in an array are even or if at least one number is odd
-let reduce = [2, 4, 6, 8, 10];
-
-
-
+ let reduce = [2, 4, 6, 8, 10];
+let output = reduce.reduce((pre,curr)=>{
+    return pre && curr%2===0 ;
+})
+console.log(output);
 let webDevelopment = [  
 { Name: "Daniyal", class: "basic" }, 
 { Name: "saliha", class: "basic" },  
