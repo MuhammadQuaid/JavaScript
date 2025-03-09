@@ -1,0 +1,14 @@
+*{
+    background-color: aqua;
+    text-shadow: 10px;
+    font-size: larger;
+}
+.heading{
+    color: brown;
+    background-color: blue;
+    border: 3px solid black;
+}
+p{
+    text-align: center;
+    align-content: first baseline;
+}
